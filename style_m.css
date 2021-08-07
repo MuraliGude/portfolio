@@ -1,0 +1,107 @@
+@import "style0.css";
+
+@media only screen and (max-width:500px) {
+    body{
+        width:100%;
+    }
+
+    .main{
+        min-height:700px;
+    }
+
+    header{
+        width:100%;
+    }
+
+    .header{
+        flex-direction:column;
+        width:100%;
+    }
+
+    nav{
+        width:100%;
+        overflow:auto;
+    }
+
+    nav>ul{
+        justify-content:space-between;
+    }
+
+    nav>ul>li{
+        padding: 5px 10px;
+    }
+
+    .section{
+        display:flex;
+        flex-direction:column-reverse;
+        justify-content:space-around;
+    }
+
+    .summary{
+        justify-content:center;
+        align-items:center;
+    }
+
+    .image-container{
+        position:initial;
+        transform:translateY(0);
+        margin:auto;
+        margin-top:40px;
+    }
+
+    /* section header */
+
+    .section-header{
+        width:100%;
+        font-size:0.7em;
+    }
+
+    /* education */
+
+    .education{
+        width:95%;
+    }
+
+    .academic{
+        font-size:1em;
+        display:flex;
+        flex-direction:column;
+    }
+
+    /* projects */
+
+    .projects{
+        width:95%;
+    }
+
+    .project-box-container>.box{
+        display:flex;
+        flex-direction:column;
+    }
+
+    /* skills */
+
+    .skills{
+        width:95%;
+    }
+
+    /* contact */
+
+    .contact{
+        width:95%;
+    }
+
+    .feild{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* more */
+
+    .more{
+        width:95%;
+    }
+
+    .more-container{
+        flex-direction:column;
+    }
+}
